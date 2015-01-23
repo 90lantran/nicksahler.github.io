@@ -1,0 +1,433 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700,400);
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #333;
+}
+
+::selection{
+    color: #00B8FF;
+    background: #FFF;
+}
+
+::-moz-selection{
+    color: #00B8FF;
+    background: #FFF;
+}
+
+body {
+  background-color: #FFF;
+  font-size: 14px;
+  height: 100%;
+  font-family: 'Cabin', Arial;
+}
+
+a {
+  transition: color .5s;
+  color: #00B8FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CCCCCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', Arial;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+body > .ember-view > header {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+body > .ember-view >  header img {
+  width: 60px;
+  height: 110px;
+  margin-left: 10px;
+  margin-top: -16px;
+  float: right;
+}
+
+body > .ember-view >  header h1 {
+  font-family: 'Montserrat';
+  font-size: 4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 10px;
+  margin-left: -3px;
+}
+
+body > .ember-view >  header h2 {
+  font-family: 'Montserrat';
+  font-size: 1.1em;
+  font-weight: 800;
+  color: #FFF;
+  letter-spacing: 2.5px;
+}
+
+main {
+  margin-bottom: 15px;
+  position: relative;
+  padding: 40px 10px 0px 10px;
+  display: block;
+}
+
+.scaffolding {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+article p a {
+  border-bottom: 1px dotted #6CD6FF;
+}
+
+.pagination {
+  text-align: right;
+  font-family: monospace;
+}
+
+.listing, article > header  {
+  border-bottom: 1px dotted #DDD;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.listing h1, article > header h1 {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: 'Cabin';
+  display: inline;
+  float: left;
+  transition: color .5s;
+  margin-bottom: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 75%;
+}
+
+.listing h1 {
+  font-weight: 300;
+}
+
+.listing h1:hover {
+  color: #00B8FF;
+}
+
+.listing time, article time {
+  float: right;
+  text-align: right;
+  font-family: monospace;
+  display: inline;
+  width: 25%;
+  white-space: nowrap;
+}
+
+article > header {
+  margin-bottom: 15px;
+}
+
+article h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #DDD;
+}
+
+article .noline {
+  border: none;
+}
+
+article p {
+  line-height: 1.5em;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+article img  {
+  max-width: 100%;
+  margin: 15px auto;
+  display: block;
+}
+
+article ul,
+article ol {
+  margin-left: 24px;
+  margin-bottom: 15px;
+}
+
+article blockquote {
+  padding: 10px;
+  border-left: 5px solid #555;
+  background-color: #EEE;
+  margin-bottom: 15px;
+}
+
+article li {
+  line-height: 2em;
+}
+
+article pre, 
+article code {
+  background-color: #EFEFEF;
+  border: 1px solid #DDD;
+  padding: 0px 4px;
+}
+
+article pre {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+article pre code {
+  border: none;
+  padding: 0;
+}
+
+article blockquote *:nth-last-of-type(1) {
+  margin-bottom: 0px;
+}
+
+article hr {
+  width: 100%;
+  border-bottom: 1px solid #EEE;
+  margin: 15px 0px;
+}
+
+article p,
+article div {
+  position: relative;
+}
+
+article strong {
+  font-weight: 700;
+  text-shadow: 0px 0px;
+}
+
+img.logo {
+  width: 512px;
+  display: block;
+  opacity: 0.1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-left: -256px;
+}
+
+article .iframes {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article .iframes iframe {
+  margin: 0px 10px;
+}
+
+article .youtube {
+  position: relative;
+  /* (9 / 16 * 100) */
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+article .youtube iframe,
+article .youtube object,
+article .youtube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+article a.readmore {
+  background-color: #00B8FF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  color: #FFF;
+  text-align: center;
+  transition: background-color .5s;
+}
+
+article a.readmore:hover {
+  color: #FFF !important;
+  background-color: #00E0FF;
+}
+
+
+.share {
+  padding: 4px;
+}
+
+.share .fa {
+  cursor: pointer;
+}
+
+.share .fa:before {
+  font-size: 1.5em;
+  margin: 0px 5px;
+  text-align: center;
+}
+
+.share .fa-twitter:before {
+  color: #55ACEE !important;
+}
+
+.share .fa-facebook:before {
+  color: #3B5998 !important;
+}
+
+.share .fa-google-plus:before {
+  color: #dd4b39 !important;
+}
+
+.share h4 {
+  text-align: center;
+  width: 85px;
+  color: #DDD;
+  padding-bottom: 4px;
+}
+
+.availability tr {
+  line-height: 22px;
+}
+.availability td {
+  min-width: 110px;
+}
+.availability table {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+body > .ember-view >  nav, footer > nav, header > nav {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a {
+  color: #333;
+  padding: 0px 10px;
+}
+
+nav a:hover {
+  color: #00B8FF;
+}
+
+article .contact {
+  margin-right: 10px;
+  float: left;
+  width: 100%;
+  max-width: 650px;
+}
+
+article .contact span {
+  font-family: monospace;
+  border-bottom: 1px dotted #DDD;
+  width: 100%;
+  line-height: 22px;
+  padding-left: 5px;
+  float: left;
+  clear: left;
+  white-space: pre;
+}
+
+article .contact a {
+  float: right;
+}
+
+article .qr {
+  text-align: center;
+  overflow: hidden;
+  padding: 9px;
+  border: 1px dotted #DDD;
+}
+
+@media (max-width: 960px) {
+  .scaffolding {
+    width: 100%;
+  }
+
+  article .contact {
+    margin-right: 10px;
+    float: left;
+    max-width: 100%;
+  }
+
+  body > .ember-view >  header img {
+    display: none;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (-o-min-device-pixel-ratio: 3/2), screen and (min--moz-device-pixel-ratio: 1.5), screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* loader */
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}

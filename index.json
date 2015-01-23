@@ -1,0 +1,73 @@
+[
+  {
+    "slug": "welcome-to-ghost",
+    "title": "New Posts Coming Soon",
+    "file": "welcome-to-ghost.md",
+    "tags": ["blog"],
+    "published": 1385362900144
+  },
+  { 
+    "slug": "about",
+    "title": "About Me",
+    "file": "about.md",
+    "tags": ["page"],
+    "published": 1389774275301
+  },
+  { 
+    "slug": "contact",
+    "title": "Contact",
+    "file": "contact.md",
+    "tags": ["page"],
+    "published": 1389774250473
+  },
+  { 
+    "slug": "resume",
+    "title": "Resume",
+    "file": "resume.md",
+    "tags": ["page"],
+    "published": 1389774202460
+  },
+
+  { 
+    "slug": "monthly-kickstarter-pledges-august-2013",
+    "title": "Monthly Kickstarter Pledges",
+    "file": "monthly-kickstarter-pledges-august-2013.md",
+    "tags": ["blog"],
+    "published": 1376582400000
+  },
+  { 
+    "slug": "radial-audio-visualization-made-in-after-effects",
+    "title": "Radial Audio Visualization made in After Effects",
+    "file": "radial-audio-visualization-made-in-after-effects.md",
+    "tags": ["blog"],
+    "published": 1388641407795
+  },
+  { 
+    "slug": "responsive-youtube-embedding",
+    "title": "Responsive youtube embedding",
+    "file": "responsive-youtube-embedding.md",
+    "tags": ["blog"],
+    "published": 1389427783276
+  },
+  { 
+    "slug": "the-code-mechanical-keyboard",
+    "title": "The CODE mechanical keyboard.",
+    "file": "the-code-mechanical-keyboard.md",
+    "tags": ["blog"],
+    "published": 1392083561310
+  },
+  { 
+    "slug": "portfolio",
+    "title": "Portfolio",
+    "file": "portfolio.md",
+    "tags": ["page"],
+    "published": 1394867064066
+  },
+  { 
+    "slug": "hire",
+    "title": "Hire Me",
+    "file": "hire.md",
+    "tags": ["page"],
+    "published": 1405552644004
+  }
+]
