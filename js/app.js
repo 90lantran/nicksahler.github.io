@@ -43,7 +43,7 @@ App.PostRoute = Ember.Route.extend({
       .then(function(data) {
         document.title = data.title;
         model.setProperties(data);
-        return $.get('./_posts/' + data.file)
+        return $.get('./posts/' + data.file)
           .then(function(md) {
             model.set('html', marked(md));
           });
