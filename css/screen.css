@@ -406,7 +406,7 @@ article .qr {
   width: 40px;
   height: 40px;
   margin: 100px auto;
-  background-color: #333;
+  background-color: #00B8FF;
 
   border-radius: 100%;  
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
