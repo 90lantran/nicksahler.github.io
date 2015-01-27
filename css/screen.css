@@ -53,9 +53,8 @@ body > .ember-view > header {
   overflow: hidden;
   position: relative;
   text-align: left;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
-  background-position: bottom center;
   background-repeat: no-repeat;
 }
 
