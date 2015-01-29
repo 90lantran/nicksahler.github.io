@@ -430,3 +430,8 @@ article .qr {
     opacity: 0;
   }
 }
+
+path {
+    stroke: #ffffff;
+    stroke-width: 3px;
+}

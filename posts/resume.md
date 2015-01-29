@@ -1,127 +1,82 @@
 ## QUALIFICATIONS
 
-- **Web Development** 4+ years working with JS, HTML5 and CSS on small to large scale projects across the web
+- **Web Development** 4+ years working with JS, HTML5 and CSS on small and large scale projects across the web
 
-- **Backend and Application Development** Experience with Google App Engine, Node.js and PHP (when it was more widely used... it's been a while).
+- **Backend and Application Development** Experience with Google App Engine, Node.js and PHP.
 
-- **Robotics and Microcontroller Programming** 4 years as a Robotics team member and 5 years as a hobbyist of robotics. Experience with Arduino, CRio/NI hardware, and PIC.
+- **Robotics and Microcontroller Programming** 4 years as a Robotics team member and 6 years as a hobbyist of robotics. Experience with Arduino, CRio/NI hardware, and PIC.
 
 ## EXPERIENCE
-- **[NBA](http://stats.nba.com)**
+- **NBA** *April 2014 - July 2014* | Consulting Senior Front-end Developer 
 
-  Consulting Senior Front-end Developer [April 2014 - July 2014]
+  Front end developer working mainly on the stats site.  
+  [link](http://stats.nba.com)  
+
+- **DISCOURSE** *January 2013 - June 2013*  |  Intern
+
+  Generally wrote frontend code, contributed ideas, built landing page and fixed bugs. Created a bot and contributed a small amount to the backend. Helped with community and deployment occasionally.  
+  [link](http://discourse.org)
+
+- **RESTORE THE FOURTH** *September 2013*  |  Volunteer Web Developer
+
+  Helped with their Discourse forum setup and web development, CSS + HTML  
+  [link](http://discuss.restorethe4th.com/)
+    
+- **CREAM & SUGAR CO** *November 2012 - November 2013*  |  Lead Software Developer 
+
+  Worked on backend and frontend. It was originally on Magento, but after some analysis we decided to rewrite it from the ground up using NodeJS, UPS’ API, payment APIs including Paypal and Amazon Payments.  
+  [link](https://www.behance.net/gallery/15339683/Cream-and-Sugar)
   
-  Front end developer working mainly on the stats site.
-
-- **[DISCOURSE](http://discourse.org)**
-
-  Intern [January 2013 - June 2013]
-
-  Generally wrote small bits of code here and there, contributed ideas, tried to help out with company as much as possible. Created a bot and contributed tiny bits to the backend. Helped with community and deployment occasionally.
-
-- **[RESTORE THE FOURTH](http://discuss.restorethe4th.com/)**
-
-  Volunteer Web Developer [September 2013 - present]
-
-  Helped with their Discourse forum setup and web development, CSS + HTML
-  
-- **EDEN GAME COMPANY**
-
-  Founder [2012 - present]
-
-  Currently working on projects surrounding gamification. To be published later.
-  
-- **[CREAM & SUGAR CO.](https://www.behance.net/gallery/15339683/Cream-and-Sugar)**
-
-  Lead Software Developer [November 2012 - November 2013]
-
-  I have been working on their backend and frontend for a while now. It was originally on Magento, but after some analysis we are writing it from the ground up. We are using NodeJS, UPS’ API, payment APIs including Paypal and Amazon Payments.
-  
-- **COMPUTER SCIENCE TUTOR**
-
-  Tutor [2009 - 2012]
+- **COMPUTER SCIENCE TUTOR** *2009 - 2012* | Tutor
 
   Tutored students from TCNJ, Rutgers, Stevens, and several high schools
 
-- **FIRST ROBOTICS TEAM 1089**
-
-  Leader [September 2008 - June 2012]
+- **FIRST ROBOTICS TEAM 1089** *September 2008 - June 2012* | Leader
 
   Programming and Electronics Committee Chair, Web Development Chair
 
 ## SKILLS & PROFICIENCIES
 
-SE: Some Experience | C: Competent | P: Proficient
+I have working knowledge in <span class="highlight red">Javascript</span>, <span class="highlight green">Java</span>, <span class="highlight blue">HTML</span>, and <span class="highlight indigo">CSS</span>
 
-### Programming Languages
-- Java (**P**)
-- Javascript (Node) (**P**)
-- Javascript (Browser) (**P**)
-- Arduino (**C**)
-- C (**C**)
-- BASIC (**C**)
-- ASM (PIC, Arduino, some x86) (**C**)
-- LabVIEW (**C**)
-- C# (**C**)
-- PHP (**C**)
-- Processing (**SE**)
-- Python (**SE**)
-- C++ (**SE**)
-- AS3/Flash (**SE**)
-- Ruby (**SE**)
+I also have past experience with <span class="highlight violet">C</span>, <span class="highlight orange">BASIC</span>, <span class="highlight yellow">ASM (PIC, Arduino, some x86)</span>, <span class="highlight green">LabVIEW</span>, <span class="highlight blue">C#</span>, <span class="highlight indigo">PHP</span>, and <span class="highlight red">AS3/Flash</span> and am very proficient given warmup and active use.
 
-### Other Technical Languages
-- CSS (**P**)
-- HTML (**P**)
-- JSON (**P**)
-- XML  (**SE**)
+I have very basic knowledge of <span class="highlight orange">C++</span>, <span class="highlight yellow">Ruby</span>, <span class="highlight violet">Python</span>
 
-### APIs
-- Twitter (**C**)
-- Facebook (**C**)
+I am currently working on learning <span class="highlight red">Haskell</span> and <span class="highlight violet">Rust</span> 
 
-### Frameworks and Platforms
-- Node.js (**P**)
-- Google App Engine (**C**)
-- Android (**C**)
-- MongoDB (**C**)
-- EmberJS (**C**)
-- CouchDB (**C**)
-- Angular (**SE**)
+I also have experience with libraries, frameworks and tools such as Node.js, Google App Engine, Android, MongoDB, EmberJS, CouchDB, and Angular.
 
-### Tools
-- Adobe Creative Cloud (most apps) (**P**)
-- Eclipse (**P**)
-- Grunt
+<hr/>
 
-### Learning
-- Haskell
-- D3.js
+<style>
 
-<div class="code-chart"></div>
-<script>
-  // var donut = d3.svg.arc().value(function(d){
-  //   return d.octetTotalCount;
-  // });
-  
-  var color = d3.scale.category20();
-  var w = 450;
-  var h = 300;
-  var r = 100;
-  var ir = 45;
-  var arrayRange = 10;
-  var data = [0,1,2,3,4,5];
-  var tweenDuration = 500;
-  
-  var x = d3.svg.arc()
-    .innerRadius(128)
-    .outerRadius(512)
-    .startAngle(0)
-    .endAngle(Math.PI * 2);
 
-  var vis = d3.select(".code-chart")
-    .append("path")
-    .attr("d", x)
-    .attr("width", w)
-    .attr("height", h);
-</script>
+  .red {
+    color: #FA8072;
+  }
+
+  .orange {
+    color: #FAAD72;
+  }
+
+  .yellow {
+    color: #FFDC00;
+  }
+
+  .green {
+    color: #01FF70;
+  }
+
+  .blue {
+    color: #0074D9;
+  }
+
+  .indigo {
+    color: #87ACEB;
+  }
+
+  .violet {
+    color: #A487EB;
+  }
+</style>
